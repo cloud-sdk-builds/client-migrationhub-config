@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-migrationhub-config`](https://www.npmjs.com/package/@aws-sdk/client-migrationhub-config/v/3.1138.0).
+[`@aws-sdk/client-migrationhub-config`](https://www.npmjs.com/package/@aws-sdk/client-migrationhub-config/v/3.1139.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-migrationhub-config - [https://cloud-sdk-builds.github.io/?sdk=client-migrationhub-config](https://cloud-sdk-builds.github.io/?sdk=client-migrationhub-config)
-- @aws-sdk/client-migrationhub-config v3.1138.0 - [https://cloud-sdk-builds.github.io/?sdk=client-migrationhub-config&version=3.1138.0](https://cloud-sdk-builds.github.io/?sdk=client-migrationhub-config&version=3.1138.0)
+- @aws-sdk/client-migrationhub-config v3.1139.0 - [https://cloud-sdk-builds.github.io/?sdk=client-migrationhub-config&version=3.1139.0](https://cloud-sdk-builds.github.io/?sdk=client-migrationhub-config&version=3.1139.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-migrationhub-config@3.1138.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-migrationhub-config@3.1139.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-LwhY7VDjCzaUhphLgPlGYnTxyjlAlrmLMT5sW4ltZza0z1dHEciwX75KFVk0UPk+
+sha384-2cp5ui1AeuIh9FMc24Y2xxxUK/VQ2WKDe9IM5qUVeN/3UM4FK2wrqhy3UEd1pQbD
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-migrationhub-config": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-migrationhub-config@3.1138.0/index.min.mjs"
+            "@aws-sdk/client-migrationhub-config": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-migrationhub-config@3.1139.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-migrationhub-config@3.1138.0/index.min.mjs": "sha384-LwhY7VDjCzaUhphLgPlGYnTxyjlAlrmLMT5sW4ltZza0z1dHEciwX75KFVk0UPk+"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-migrationhub-config@3.1139.0/index.min.mjs": "sha384-2cp5ui1AeuIh9FMc24Y2xxxUK/VQ2WKDe9IM5qUVeN/3UM4FK2wrqhy3UEd1pQbD"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-migrationhub-config": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-migrationhub-config@3.1138.0/index.min.mjs"
+                        "@aws-sdk/client-migrationhub-config": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-migrationhub-config@3.1139.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-migrationhub-config@3.1138.0/index.min.mjs": "sha384-LwhY7VDjCzaUhphLgPlGYnTxyjlAlrmLMT5sW4ltZza0z1dHEciwX75KFVk0UPk+"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-migrationhub-config@3.1139.0/index.min.mjs": "sha384-2cp5ui1AeuIh9FMc24Y2xxxUK/VQ2WKDe9IM5qUVeN/3UM4FK2wrqhy3UEd1pQbD"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1138.0`)
+* Always pin to a specific version (`@3.1139.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-migrationhub-config/blob/refs/tags/3.1138.0/LICENSE
+https://github.com/cloud-sdk-builds/client-migrationhub-config/blob/refs/tags/3.1139.0/LICENSE
 ```
 
 ---
